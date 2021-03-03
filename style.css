@@ -1,0 +1,61 @@
+/* reset */
+*{
+    
+}
+
+
+.section {
+
+}
+
+.container {
+    width: 1024px;
+    background-color: blueviolet;
+    padding: 50px 0;
+    margin: auto;
+}
+
+
+.banner-section{
+    background-color: lightgray;
+}
+
+.header-section {
+    background-color: blue;
+    height: 80px;
+}
+
+.hero-section {
+    background-color: blue;
+    height: 400px;
+}
+
+.row{
+
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;    
+}
+
+
+.column:nth-last-of-type(even) {
+    background-color: lime;
+}
+
+.column {
+   float: left; 
+   position: relative;
+   padding: 50px 0px;
+   background-color: lightskyblue;
+}
+
+.col-3 {
+    width:33.3%;
+}
+
+.col-2 {
+    width: 50%;
+}
