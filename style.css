@@ -1,8 +1,9 @@
 /* reset */
 *{
-    
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;   
 }
-
 
 .section {
 
@@ -23,6 +24,7 @@
 .header-section {
     background-color: blue;
     height: 80px;
+    font-size: 16px;
 }
 
 .hero-section {
@@ -58,4 +60,16 @@
 
 .col-2 {
     width: 50%;
+}
+
+li{
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+.login {
+    display: inline-block;
 }
