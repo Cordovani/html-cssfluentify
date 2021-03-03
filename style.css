@@ -5,9 +5,9 @@
  box-sizing: border-box;   
 }
 
-.section {
-
-}
+/* main{
+    position: relative;
+} */
 
 .container {
     width: 1024px;
@@ -30,6 +30,7 @@
 .hero-section {
     background-color: blue;
     height: 400px;
+    background-image: url(img/img/background-header.png);
 }
 
 .row{
@@ -73,3 +74,4 @@ nav {
 .login {
     display: inline-block;
 }
+
